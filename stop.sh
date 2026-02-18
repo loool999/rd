@@ -9,13 +9,11 @@ echo "Stopping Linux Desktop..."
 if [ -f "${PID_FILE}" ]; then
     source "${PID_FILE}"
     for pair in \
+        "watchdog:${WATCHDOG_PID:-}" \
         "server:${SERVER_PID:-}" \
         "x11vnc:${X11VNC_PID:-}" \
-        "panel:${PANEL_PID:-}" \
-        "xfdesktop:${DESKTOP_PID:-}" \
-        "xfwm4:${XFWM4_PID:-}" \
-        "Xvfb:${XVFB_PID:-}" \
-        "dbus:${DBUS_SESSION_BUS_PID:-}"; do
+        "xfce:${XFCE_PID:-}" \
+        "Xvfb:${XVFB_PID:-}"; do
         n="${pair%%:*}"; p="${pair##*:}"
         if [ -n "${p}" ] && kill -0 "${p}" 2>/dev/null; then
             kill "${p}" 2>/dev/null || true
@@ -33,17 +31,16 @@ else
     echo "  No PID file — sweeping..."
 fi
 
+# Kill all desktop user processes
+pkill -u desktop 2>/dev/null || true
+sleep 1
+pkill -9 -u desktop 2>/dev/null || true
+
+# Sweep infrastructure
 pkill -f "server.py"        2>/dev/null || true
 pkill -f "Xvfb :1"          2>/dev/null || true
 pkill -f "x11vnc"           2>/dev/null || true
 pkill -f "websockify"       2>/dev/null || true
-pkill -f "xfwm4"            2>/dev/null || true
-pkill -f "xfce4-panel"      2>/dev/null || true
-pkill -f "xfdesktop"        2>/dev/null || true
-pkill -f "xfsettingsd"      2>/dev/null || true
-pkill -f "thunar.*daemon"   2>/dev/null || true
-pkill -f "xfce4-terminal"   2>/dev/null || true
-pkill -f "xfconfd"          2>/dev/null || true
 
 rm -f  /tmp/.X1-lock        2>/dev/null || true
 rm -rf /tmp/.X11-unix/X1    2>/dev/null || true

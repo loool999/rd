@@ -57,6 +57,10 @@ RUN apt-get install -y \
     build-essential gcc g++ make cmake \
     python3-venv nodejs npm imagemagick
 
+# ── Create restricted desktop user (NO sudo) ─────────────────────────────────
+RUN useradd -m -s /bin/bash -G audio,video desktop && \
+    mkdir -p /usr/local/lib/safeguard/bin
+
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 ENV LANG=en_US.UTF-8

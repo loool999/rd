@@ -254,3 +254,4 @@ More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
 18/02/2026 17:49:49 dt1: 0.0224, dt2: 0.1481 dt3: 0.0244 bytes: 199495
 18/02/2026 17:49:49 link_rate: LR_BROADBAND - 79 ms, 1098 KB/s
 18/02/2026 17:49:49 client_set_net: ::1  0.0000
+18/02/2026 17:55:16 idle keyboard:   turning X autorepeat back on.

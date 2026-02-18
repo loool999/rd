@@ -1,0 +1,4 @@
+vnc/noVNC/
+vnc/logs/
+vnc/config/
+vnc/.pids
