@@ -264,4 +264,4 @@ echo "      • Workspace scripts → read-only"
 echo "      • .bashrc → immutable (root-owned)"
 echo "      • Watchdog auto-restarts XFCE if killed"
 echo ""
-echo "  bash stop.sh  
+echo "  bash stop.sh  "
