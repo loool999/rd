@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Calculator
+Exec=gnome-calculator
+Icon=accessories-calculator
+Terminal=false

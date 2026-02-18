@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=System Monitor
+Exec=gnome-system-monitor
+Icon=utilities-system-monitor
+Terminal=false

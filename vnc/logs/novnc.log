@@ -1,0 +1,15 @@
+WebSocket server settings:
+  - Listen on :6080
+  - Web server. Web root: /workspaces/rd/vnc/noVNC
+  - No SSL/TLS support (no cert file)
+  - proxying from :6080 to localhost:5901
+127.0.0.1 - - [18/Feb/2026 17:22:51] 127.0.0.1: Plain non-SSL (ws://) WebSocket connection
+127.0.0.1 - - [18/Feb/2026 17:22:51] 127.0.0.1: Path: '/websockify'
+127.0.0.1 - - [18/Feb/2026 17:22:51] connecting to: localhost:5901
+127.0.0.1 - - [18/Feb/2026 17:23:04] 127.0.0.1: Plain non-SSL (ws://) WebSocket connection
+127.0.0.1 - - [18/Feb/2026 17:23:04] 127.0.0.1: Path: '/websockify'
+127.0.0.1 - - [18/Feb/2026 17:23:04] connecting to: localhost:5901
+127.0.0.1 - - [18/Feb/2026 17:23:19] 127.0.0.1: Plain non-SSL (ws://) WebSocket connection
+127.0.0.1 - - [18/Feb/2026 17:23:19] 127.0.0.1: Path: '/websockify'
+127.0.0.1 - - [18/Feb/2026 17:23:19] connecting to: localhost:5901
+In exit

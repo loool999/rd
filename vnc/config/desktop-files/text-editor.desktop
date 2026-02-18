@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Text Editor
+Exec=mousepad
+Icon=accessories-text-editor
+Terminal=false

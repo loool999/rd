@@ -1,0 +1,4 @@
+
+(xfwm4:972): GLib-CRITICAL **: 17:45:20.533: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:972): xfwm4-WARNING **: 17:45:20.923: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined

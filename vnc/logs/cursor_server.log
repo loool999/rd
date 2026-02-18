@@ -1,0 +1,22 @@
+opening handshake failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/usr/local/lib/python3.10/dist-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+  File "/usr/local/lib/python3.10/dist-packages/websockets/server.py", line 140, in accept
+    ) = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/websockets/server.py", line 235, in process_request
+    raise InvalidUpgrade(
+websockets.exceptions.InvalidUpgrade: missing Connection header
+opening handshake failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/usr/local/lib/python3.10/dist-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+  File "/usr/local/lib/python3.10/dist-packages/websockets/server.py", line 140, in accept
+    ) = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/websockets/server.py", line 235, in process_request
+    raise InvalidUpgrade(
+websockets.exceptions.InvalidUpgrade: missing Connection header

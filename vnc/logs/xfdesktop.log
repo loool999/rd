@@ -1,0 +1,13 @@
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(xfdesktop:979): GVFS-RemoteVolumeMonitor-WARNING **: 17:45:22.065: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:979): WARNING **: 17:45:22.268: Failed to get system bus: Could not connect: No such file or directory
+
+** (xfdesktop:979): WARNING **: 17:45:23.475: Failed to get system bus: Could not connect: No such file or directory
+
+(xfdesktop:979): GLib-CRITICAL **: 17:46:31.166: g_variant_new_string: assertion 'string != NULL' failed
+
+(xfdesktop:979): GLib-CRITICAL **: 17:46:41.635: g_variant_new_string: assertion 'string != NULL' failed
+
+(xfdesktop:979): GLib-CRITICAL **: 17:49:59.727: g_variant_new_string: assertion 'string != NULL' failed

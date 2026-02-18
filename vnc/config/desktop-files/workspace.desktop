@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Open Workspace
+Comment=Open workspace in file manager
+Exec=thunar /workspaces/rd
+Icon=folder-documents
+Terminal=false
+Categories=System;

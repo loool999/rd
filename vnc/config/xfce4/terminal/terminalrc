@@ -1,0 +1,23 @@
+[Configuration]
+FontName=Fira Code 11
+MiscAlwaysShowTabs=FALSE
+MiscBell=FALSE
+MiscBordersDefault=TRUE
+MiscCursorBlinks=TRUE
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
+MiscDefaultGeometry=110x30
+MiscMenubarDefault=TRUE
+MiscToolbarDefault=FALSE
+MiscConfirmClose=TRUE
+MiscHighlightUrls=TRUE
+MiscShowUnsafePasteDialog=FALSE
+ScrollingOnOutput=FALSE
+ColorForeground=#cdd6f4
+ColorBackground=#1e1e2e
+ColorCursor=#f5e0dc
+ColorSelection=#45475a
+ColorSelectionUseDefault=FALSE
+ColorBoldIsBright=TRUE
+ColorPalette=#45475a;#f38ba8;#a6e3a1;#f9e2af;#89b4fa;#f5c2e7;#94e2d5;#bac2de;#585b70;#f38ba8;#a6e3a1;#f9e2af;#89b4fa;#f5c2e7;#94e2d5;#a6adc8
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+BackgroundDarkness=0.92

@@ -1,0 +1,256 @@
+18/02/2026 17:45:23 passing arg to libvncserver: -rfbport
+18/02/2026 17:45:23 passing arg to libvncserver: 5901
+18/02/2026 17:45:23 x11vnc version: 0.9.16 lastmod: 2019-01-05  pid: 1187
+18/02/2026 17:45:23 Using X display :1
+18/02/2026 17:45:23 rootwin: 0x50d reswin: 0x1200001 dpy: 0x1cb8f1d0
+18/02/2026 17:45:23 
+18/02/2026 17:45:23 ------------------ USEFUL INFORMATION ------------------
+18/02/2026 17:45:23 
+18/02/2026 17:45:23 Wireframing: -wireframe mode is in effect for window moves.
+18/02/2026 17:45:23   If this yields undesired behavior (poor response, painting
+18/02/2026 17:45:23   errors, etc) it may be disabled:
+18/02/2026 17:45:23    - use '-nowf' to disable wireframing completely.
+18/02/2026 17:45:23    - use '-nowcr' to disable the Copy Rectangle after the
+18/02/2026 17:45:23      moved window is released in the new position.
+18/02/2026 17:45:23   Also see the -help entry for tuning parameters.
+18/02/2026 17:45:23   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+18/02/2026 17:45:23   repaint the screen, also see the -fixscreen option for
+18/02/2026 17:45:23   periodic repaints.
+18/02/2026 17:45:23 GrabServer control via XTEST.
+18/02/2026 17:45:23 
+18/02/2026 17:45:23 Scroll Detection: -scrollcopyrect mode is in effect to
+18/02/2026 17:45:23   use RECORD extension to try to detect scrolling windows
+18/02/2026 17:45:23   (induced by either user keystroke or mouse input).
+18/02/2026 17:45:23   If this yields undesired behavior (poor response, painting
+18/02/2026 17:45:23   errors, etc) it may be disabled via: '-noscr'
+18/02/2026 17:45:23   Also see the -help entry for tuning parameters.
+18/02/2026 17:45:23   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+18/02/2026 17:45:23   repaint the screen, also see the -fixscreen option for
+18/02/2026 17:45:23   periodic repaints.
+18/02/2026 17:45:23 X FBPM extension not supported.
+Xlib:  extension "DPMS" missing on display ":1".
+18/02/2026 17:45:23 X display is not capable of DPMS.
+18/02/2026 17:45:23 --------------------------------------------------------
+18/02/2026 17:45:23 
+18/02/2026 17:45:23 Default visual ID: 0x21
+18/02/2026 17:45:23 Read initial data from X display into framebuffer.
+18/02/2026 17:45:23 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/7680
+18/02/2026 17:45:23 
+18/02/2026 17:45:23 X display :1 is 32bpp depth=24 true color
+18/02/2026 17:45:23 
+18/02/2026 17:45:23 Listening for VNC connections on TCP port 5901
+18/02/2026 17:45:23 Listening for VNC connections on TCP6 port 5900
+18/02/2026 17:45:23 Listening also on IPv6 port 5901 (socket 10)
+18/02/2026 17:45:23 
+18/02/2026 17:45:23 Xinerama is present and active (e.g. multi-head).
+18/02/2026 17:45:23 Xinerama: number of sub-screens: 1
+18/02/2026 17:45:23 Xinerama: no blackouts needed (only one sub-screen)
+18/02/2026 17:45:23 
+18/02/2026 17:45:23 fb read rate: 1017 MB/sec
+18/02/2026 17:45:23 fast read: reset -wait  ms to: 10
+18/02/2026 17:45:23 fast read: reset -defer ms to: 10
+18/02/2026 17:45:23 The X server says there are 10 mouse buttons.
+18/02/2026 17:45:23 screen setup finished.
+18/02/2026 17:45:23 
+
+The VNC desktop is:      codespaces-1f8c0e:1
+PORT=5901
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+18/02/2026 17:45:45   0 other clients
+18/02/2026 17:45:45 Normal socket connection
+18/02/2026 17:45:45 renaming client->host from '::1' to '::1'
+18/02/2026 17:45:45 Disabled X server key autorepeat.
+18/02/2026 17:45:45   to force back on run: 'xset r on' (3 times)
+18/02/2026 17:45:45 incr accepted_client=1 for ::1:59466  sock=11
+18/02/2026 17:45:45 ipv6 client: ::1
+18/02/2026 17:45:45 Client Protocol Version 3.8
+18/02/2026 17:45:45 Protocol version sent 3.8, using 3.8
+18/02/2026 17:45:45 rfbProcessClientSecurityType: executing handler for type 1
+18/02/2026 17:45:45 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/02/2026 17:45:45 Pixel format for client ::1:
+18/02/2026 17:45:45   32 bpp, depth 24, little endian
+18/02/2026 17:45:45   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000032)
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+18/02/2026 17:45:45 Using image quality level 8 for client ::1
+18/02/2026 17:45:45 Using JPEG subsampling 0, Q92 for client ::1
+18/02/2026 17:45:45 Using compression level 2 for client ::1
+18/02/2026 17:45:45 Enabling NewFBSize protocol extension for client ::1
+18/02/2026 17:45:45 Enabling LastRect protocol extension for client ::1
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFB)
+18/02/2026 17:45:45 Enabling ExtDesktopSize protocol extension for client ::1
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xC0A1E5CE)
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC4)
+18/02/2026 17:45:45 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x574D5664)
+18/02/2026 17:45:45 Enabling full-color cursor updates for client ::1
+18/02/2026 17:45:45 Using tight encoding for client ::1
+18/02/2026 17:45:45 Sending rfbEncodingExtDesktopSize for size (1920x1080) 
+18/02/2026 17:45:46 client 1 network rate 1098.6 KB/sec (46969.7 eff KB/sec)
+18/02/2026 17:45:46 client 1 latency:  79.5 ms
+18/02/2026 17:45:46 dt1: 0.0121, dt2: 0.2042 dt3: 0.0795 bytes: 194057
+18/02/2026 17:45:46 link_rate: LR_BROADBAND - 79 ms, 1098 KB/s
+18/02/2026 17:45:46 copy_tiles: allocating first_line at size 61
+18/02/2026 17:45:46 client_set_net: ::1  0.0000
+18/02/2026 17:45:55 created selwin: 0x1200040
+18/02/2026 17:45:55 called initialize_xfixes()
+18/02/2026 17:46:02   1 other clients
+18/02/2026 17:46:02 Normal socket connection
+18/02/2026 17:46:02 renaming client->host from '::1' to '::1'
+18/02/2026 17:46:02 incr accepted_client=2 for ::1:45898  sock=12
+18/02/2026 17:46:02 ipv6 client: ::1
+18/02/2026 17:46:02 Client Protocol Version 3.8
+18/02/2026 17:46:02 Protocol version sent 3.8, using 3.8
+18/02/2026 17:46:02 rfbProcessClientSecurityType: executing handler for type 1
+18/02/2026 17:46:02 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/02/2026 17:46:02 client_set_net: ::1  0.0000
+18/02/2026 17:46:02 Pixel format for client ::1:
+18/02/2026 17:46:02   32 bpp, depth 24, little endian
+18/02/2026 17:46:02   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000032)
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+18/02/2026 17:46:02 Using image quality level 8 for client ::1
+18/02/2026 17:46:02 Using JPEG subsampling 0, Q92 for client ::1
+18/02/2026 17:46:02 Using compression level 2 for client ::1
+18/02/2026 17:46:02 Enabling NewFBSize protocol extension for client ::1
+18/02/2026 17:46:02 Enabling LastRect protocol extension for client ::1
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFB)
+18/02/2026 17:46:02 Enabling ExtDesktopSize protocol extension for client ::1
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xC0A1E5CE)
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC4)
+18/02/2026 17:46:02 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x574D5664)
+18/02/2026 17:46:02 Enabling full-color cursor updates for client ::1
+18/02/2026 17:46:02 Using tight encoding for client ::1
+18/02/2026 17:46:02 Sending rfbEncodingExtDesktopSize for size (1920x1080) 
+18/02/2026 17:46:23 client 2 network rate 665.9 KB/sec (25238.5 eff KB/sec)
+18/02/2026 17:46:23 client 2 latency:  23.3 ms
+18/02/2026 17:46:23 dt1: 0.0073, dt2: 0.0924 dt3: 0.0233 bytes: 58641
+18/02/2026 17:46:23 link_rate: LR_BROADBAND - 79 ms, 1098 KB/s
+18/02/2026 17:46:39 increased wireframe timeouts for slow network connection.
+18/02/2026 17:46:39 netrate: 1098 KB/sec, latency: 79 ms
+18/02/2026 17:48:49 client_count: 1
+18/02/2026 17:48:49 Client ::1 gone
+18/02/2026 17:48:49 Statistics             events    Transmit/ RawEquiv ( saved)
+18/02/2026 17:48:49  FramebufferUpdate   :    174 |         0/        0 (  0.0%)
+18/02/2026 17:48:49  LastRect            :     56 |       672/      672 (  0.0%)
+18/02/2026 17:48:49  tight               :    878 |   1434764/ 45594920 ( 96.9%)
+18/02/2026 17:48:49  RichCursor          :      1 |      1374/     1374 (  0.0%)
+18/02/2026 17:48:49  ExtendedDesktopSize :      1 |        32/       32 (  0.0%)
+18/02/2026 17:48:49  TOTALS              :   1110 |   1436842/ 45596998 ( 96.8%)
+18/02/2026 17:48:49 Statistics             events    Received/ RawEquiv ( saved)
+18/02/2026 17:48:49  ClientCutText       :      3 |      4977/     4977 (  0.0%)
+18/02/2026 17:48:49  KeyEvent            :      8 |        64/       64 (  0.0%)
+18/02/2026 17:48:49  PointerEvent        :    865 |      5190/     5190 (  0.0%)
+18/02/2026 17:48:49  FramebufferUpdate   :    176 |      1760/     1760 (  0.0%)
+18/02/2026 17:48:49  SetEncodings        :      1 |       104/      104 (  0.0%)
+18/02/2026 17:48:49  SetPixelFormat      :      1 |        20/       20 (  0.0%)
+18/02/2026 17:48:49  TOTALS              :   1054 |     12115/    12115 (  0.0%)
+18/02/2026 17:48:54   1 other clients
+18/02/2026 17:48:54 Normal socket connection
+18/02/2026 17:48:54 renaming client->host from '::1' to '::1'
+18/02/2026 17:48:54 incr accepted_client=3 for ::1:59744  sock=12
+18/02/2026 17:48:54 ipv6 client: ::1
+18/02/2026 17:48:54 Client Protocol Version 3.8
+18/02/2026 17:48:54 Protocol version sent 3.8, using 3.8
+18/02/2026 17:48:54 rfbProcessClientSecurityType: executing handler for type 1
+18/02/2026 17:48:54 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/02/2026 17:48:54 Pixel format for client ::1:
+18/02/2026 17:48:54   32 bpp, depth 24, little endian
+18/02/2026 17:48:54   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000032)
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+18/02/2026 17:48:54 Using image quality level 8 for client ::1
+18/02/2026 17:48:54 Using JPEG subsampling 0, Q92 for client ::1
+18/02/2026 17:48:54 Using compression level 2 for client ::1
+18/02/2026 17:48:54 Enabling NewFBSize protocol extension for client ::1
+18/02/2026 17:48:54 Enabling LastRect protocol extension for client ::1
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFB)
+18/02/2026 17:48:54 Enabling ExtDesktopSize protocol extension for client ::1
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xC0A1E5CE)
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC4)
+18/02/2026 17:48:54 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x574D5664)
+18/02/2026 17:48:54 Enabling full-color cursor updates for client ::1
+18/02/2026 17:48:54 Using tight encoding for client ::1
+18/02/2026 17:48:54 Sending rfbEncodingExtDesktopSize for size (1920x1080) 
+18/02/2026 17:48:55 client 3 network rate 780.5 KB/sec (32460.5 eff KB/sec)
+18/02/2026 17:48:55 client 3 latency:  27.4 ms
+18/02/2026 17:48:55 dt1: 0.0223, dt2: 0.2471 dt3: 0.0274 bytes: 199495
+18/02/2026 17:48:55 link_rate: LR_BROADBAND - 79 ms, 780 KB/s
+18/02/2026 17:48:55 client_set_net: ::1  0.0000
+18/02/2026 17:49:45 client_count: 1
+18/02/2026 17:49:45 Client ::1 gone
+18/02/2026 17:49:45 Statistics             events    Transmit/ RawEquiv ( saved)
+18/02/2026 17:49:45  FramebufferUpdate   :      6 |         0/        0 (  0.0%)
+18/02/2026 17:49:45  LastRect            :      1 |        12/       12 (  0.0%)
+18/02/2026 17:49:45  tight               :    104 |    199326/  8300896 ( 97.6%)
+18/02/2026 17:49:45  RichCursor          :      1 |      1374/     1374 (  0.0%)
+18/02/2026 17:49:45  ExtendedDesktopSize :      1 |        32/       32 (  0.0%)
+18/02/2026 17:49:45  TOTALS              :    113 |    200744/  8302314 ( 97.6%)
+18/02/2026 17:49:45 Statistics             events    Received/ RawEquiv ( saved)
+18/02/2026 17:49:45  PointerEvent        :     25 |       150/      150 (  0.0%)
+18/02/2026 17:49:45  FramebufferUpdate   :      8 |        80/       80 (  0.0%)
+18/02/2026 17:49:45  SetEncodings        :      1 |       104/      104 (  0.0%)
+18/02/2026 17:49:45  SetPixelFormat      :      1 |        20/       20 (  0.0%)
+18/02/2026 17:49:45  TOTALS              :     35 |       354/      354 (  0.0%)
+18/02/2026 17:49:48   1 other clients
+18/02/2026 17:49:49 Normal socket connection
+18/02/2026 17:49:49 renaming client->host from '::1' to '::1'
+18/02/2026 17:49:49 incr accepted_client=4 for ::1:38040  sock=12
+18/02/2026 17:49:49 ipv6 client: ::1
+18/02/2026 17:49:49 Client Protocol Version 3.8
+18/02/2026 17:49:49 Protocol version sent 3.8, using 3.8
+18/02/2026 17:49:49 rfbProcessClientSecurityType: executing handler for type 1
+18/02/2026 17:49:49 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+18/02/2026 17:49:49 Pixel format for client ::1:
+18/02/2026 17:49:49   32 bpp, depth 24, little endian
+18/02/2026 17:49:49   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000032)
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+18/02/2026 17:49:49 Using image quality level 8 for client ::1
+18/02/2026 17:49:49 Using JPEG subsampling 0, Q92 for client ::1
+18/02/2026 17:49:49 Using compression level 2 for client ::1
+18/02/2026 17:49:49 Enabling NewFBSize protocol extension for client ::1
+18/02/2026 17:49:49 Enabling LastRect protocol extension for client ::1
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFB)
+18/02/2026 17:49:49 Enabling ExtDesktopSize protocol extension for client ::1
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xC0A1E5CE)
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC4)
+18/02/2026 17:49:49 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x574D5664)
+18/02/2026 17:49:49 Enabling full-color cursor updates for client ::1
+18/02/2026 17:49:49 Using tight encoding for client ::1
+18/02/2026 17:49:49 Sending rfbEncodingExtDesktopSize for size (1920x1080) 
+18/02/2026 17:49:49 client 4 network rate 1260.6 KB/sec (52429.3 eff KB/sec)
+18/02/2026 17:49:49 client 4 latency:  24.4 ms
+18/02/2026 17:49:49 dt1: 0.0224, dt2: 0.1481 dt3: 0.0244 bytes: 199495
+18/02/2026 17:49:49 link_rate: LR_BROADBAND - 79 ms, 1098 KB/s
+18/02/2026 17:49:49 client_set_net: ::1  0.0000

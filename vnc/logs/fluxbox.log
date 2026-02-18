@@ -1,0 +1,314 @@
+Failed to read: session.configVersion
+Setting default value
+Failed to read: session.configVersion
+Setting default value
+Failed to read: session.configVersion
+Setting default value
+Failed to read: session.keyFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.screen0.desktopwheeling
+Setting default value
+Failed to read: session.screen0.reversewheeling
+Setting default value
+Failed to read: session.groupFile
+Setting default value
+Failed to read: session.screen0.iconbar.wheelMode
+Setting default value
+Failed to read: session.screen0.desktopwheeling
+Setting default value
+Failed to read: session.screen0.reversewheeling
+Setting default value
+Failed to read: session.screen0.resizeMode
+Setting default value
+Failed to read: session.modKey
+Setting default value
+Failed to read: session.screen0.iconbar.mode
+Setting default value
+Failed to read: session.screen0.reversewheeling
+Setting default value
+Failed to read: session.screen0.windowScrollAction
+Setting default value
+Failed to read: session.screen0.tabs.usePixmap
+Setting default value
+Failed to read: session.screen0.slit.placement
+Setting default value
+Failed to read: session.screen0.slit.direction
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.keyFile
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.menuSearch
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.keyFile
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.menuSearch
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Keys: Invalid key/modifier on line 30): OnDesktop Mouse1 :HideMenus
+Keys: Invalid key/modifier on line 31): OnDesktop Mouse2 :WorkspaceMenu
+Keys: Invalid key/modifier on line 32): OnDesktop Mouse3 :RootMenu
+Keys: Invalid key/modifier on line 35): OnDesktop Mouse4 :PrevWorkspace
+Keys: Invalid key/modifier on line 36): OnDesktop Mouse5 :NextWorkspace
+Keys: Invalid key/modifier on line 43): OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
+Keys: Invalid key/modifier on line 44): OnWindowBorder Move1 :StartMoving
+Keys: Invalid key/modifier on line 46): OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
+Keys: Invalid key/modifier on line 47): OnLeftGrip Move1 :StartResizing bottomleft
+Keys: Invalid key/modifier on line 48): OnRightGrip Move1 :StartResizing bottomright
+Keys: Invalid key/modifier on line 57): OnTitlebar Double Mouse1 :Shade
+Keys: Invalid key/modifier on line 60): OnTitlebar Mouse1 :MacroCmd {Raise} {Focus} {ActivateTab}
+Keys: Invalid key/modifier on line 61): OnTitlebar Move1  :StartMoving
+Keys: Invalid key/modifier on line 64): OnTitlebar Mouse2 :Lower
+Keys: Invalid key/modifier on line 67): OnTitlebar Mouse3 :WindowMenu
+Failed to read: session.screen0.opaqueMove
+Setting default value
+Failed to read: session.screen0.fullMaximization
+Setting default value
+Failed to read: session.screen0.maxIgnoreIncrement
+Setting default value
+Failed to read: session.screen0.maxDisableMove
+Setting default value
+Failed to read: session.screen0.maxDisableResize
+Setting default value
+Failed to read: session.screen0.workspacewarping
+Setting default value
+Failed to read: session.screen0.showwindowposition
+Setting default value
+Failed to read: session.screen0.autoRaise
+Setting default value
+Failed to read: session.screen0.clickRaises
+Setting default value
+Failed to read: session.screen0.defaultDeco
+Setting default value
+Failed to read: session.screen0.tab.placement
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.screen0.noFocusWhileTypingDelay
+Setting default value
+Failed to read: session.screen0.edgeSnapThreshold
+Setting default value
+Failed to read: session.screen0.window.focus.alpha
+Setting default value
+Failed to read: session.screen0.window.unfocus.alpha
+Setting default value
+Failed to read: session.screen0.menu.alpha
+Setting default value
+Failed to read: session.screen0.menuDelay
+Setting default value
+Failed to read: session.screen0.tab.width
+Setting default value
+Failed to read: session.screen0.tooltipDelay
+Setting default value
+Failed to read: session.screen0.allowRemoteActions
+Setting default value
+Failed to read: session.screen0.clientMenu.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.maxOver
+Setting default value
+Failed to read: session.screen0.tabs.intitlebar
+Setting default value
+Failed to read: session.screen0.focusModel
+Setting default value
+Failed to read: session.screen0.tabFocusModel
+Setting default value
+Failed to read: session.screen0.focusNewWindows
+Setting default value
+Failed to read: session.screen0.focusSameHead
+Setting default value
+Failed to read: session.screen0.rowPlacementDirection
+Setting default value
+Failed to read: session.screen0.colPlacementDirection
+Setting default value
+Failed to read: session.screen0.windowPlacement
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.keyFile
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.menuSearch
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.screen0.opaqueMove
+Setting default value
+Failed to read: session.screen0.fullMaximization
+Setting default value
+Failed to read: session.screen0.maxIgnoreIncrement
+Setting default value
+Failed to read: session.screen0.maxDisableMove
+Setting default value
+Failed to read: session.screen0.maxDisableResize
+Setting default value
+Failed to read: session.screen0.workspacewarping
+Setting default value
+Failed to read: session.screen0.showwindowposition
+Setting default value
+Failed to read: session.screen0.autoRaise
+Setting default value
+Failed to read: session.screen0.clickRaises
+Setting default value
+Failed to read: session.screen0.defaultDeco
+Setting default value
+Failed to read: session.screen0.tab.placement
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.screen0.noFocusWhileTypingDelay
+Setting default value
+Failed to read: session.screen0.edgeSnapThreshold
+Setting default value
+Failed to read: session.screen0.window.focus.alpha
+Setting default value
+Failed to read: session.screen0.window.unfocus.alpha
+Setting default value
+Failed to read: session.screen0.menu.alpha
+Setting default value
+Failed to read: session.screen0.menuDelay
+Setting default value
+Failed to read: session.screen0.tab.width
+Setting default value
+Failed to read: session.screen0.tooltipDelay
+Setting default value
+Failed to read: session.screen0.allowRemoteActions
+Setting default value
+Failed to read: session.screen0.clientMenu.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.maxOver
+Setting default value
+Failed to read: session.screen0.tabs.intitlebar
+Setting default value
+Failed to read: session.screen0.focusModel
+Setting default value
+Failed to read: session.screen0.tabFocusModel
+Setting default value
+Failed to read: session.screen0.focusNewWindows
+Setting default value
+Failed to read: session.screen0.focusSameHead
+Setting default value
+Failed to read: session.screen0.rowPlacementDirection
+Setting default value
+Failed to read: session.screen0.colPlacementDirection
+Setting default value
+Failed to read: session.screen0.windowPlacement
+Setting default value
+Failed to read: session.screen0.slit.acceptKdeDockapps
+Setting default value
+Failed to read: session.screen0.slit.autoHide
+Setting default value
+Failed to read: session.screen0.slit.maxOver
+Setting default value
+Failed to read: session.screen0.slit.alpha
+Setting default value
+Failed to read: session.screen0.slit.onhead
+Setting default value
+Failed to read: session.screen0.slit.layer
+Setting default value
+Failed to read: session.screen0.toolbar.autoHide
+Setting default value
+Failed to read: session.screen0.toolbar.maxOver
+Setting default value
+Failed to read: session.screen0.toolbar.visible
+Setting default value
+Failed to read: session.screen0.toolbar.alpha
+Setting default value
+Failed to read: session.screen0.toolbar.layer
+Setting default value
+Failed to read: session.screen0.toolbar.onhead
+Setting default value
+Failed to read: session.screen0.toolbar.tools
+Setting default value
+Failed to read: session.screen0.iconbar.alignment
+Setting default value
+Failed to read: session.screen0.iconbar.iconWidth
+Setting default value
+Failed to read: session.screen0.iconbar.iconTextPadding
+Setting default value
+Failed to read: session.screen0.iconbar.usePixmap
+Setting default value
+Failed to read: session.screen0.strftimeFormat
+Setting default value
+Failed to read: session.screen0.titlebar.left
+Setting default value
+Failed to read: session.screen0.titlebar.right
+Setting default value
+WARNING: You don't seem to have any mimeinfo.cache files.
+Try running the update-desktop-database command. If you
+don't have this command you should install the
+desktop-file-utils package. This package is available from
+http://freedesktop.org/wiki/Software/desktop-file-utils/
+No applications found for mimetype: inode/directory
+.WARNING: You don't seem to have any mimeinfo.cache files.
+Try running the update-desktop-database command. If you
+don't have this command you should install the
+desktop-file-utils package. This package is available from
+http://freedesktop.org/wiki/Software/desktop-file-utils/
+No applications found for mimetype: inode/directory
+.

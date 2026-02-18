@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Terminal (Workspace)
+Comment=Open terminal in workspace
+Exec=xfce4-terminal --working-directory=/workspaces/rd
+Icon=utilities-terminal
+Terminal=false
+Categories=System;

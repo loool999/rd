@@ -1,0 +1,14 @@
+
+(xfsettingsd:934): libupower-glib-WARNING **: 17:45:19.543: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfsettingsd:934): GLib-CRITICAL **: 17:45:19.555: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:934): GLib-GObject-CRITICAL **: 17:45:19.559: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:934): GLib-GObject-CRITICAL **: 17:45:19.560: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:934): GLib-GObject-CRITICAL **: 17:45:19.564: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(xfsettingsd:934): xfsettingsd-WARNING **: 17:45:20.533: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+Received error while trying to log out, error was GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.xfce.SessionManager was not provided by any .service files

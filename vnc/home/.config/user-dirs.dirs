@@ -1,0 +1,8 @@
+XDG_DESKTOP_DIR="/workspaces/rd/vnc/home/Desktop"
+XDG_DOWNLOAD_DIR="/workspaces/rd/vnc/home/Downloads"
+XDG_DOCUMENTS_DIR="/workspaces/rd/vnc/home/Documents"
+XDG_PICTURES_DIR="/workspaces/rd/vnc/home/Pictures"
+XDG_MUSIC_DIR="/workspaces/rd/vnc/home/Music"
+XDG_VIDEOS_DIR="/workspaces/rd/vnc/home/Videos"
+XDG_TEMPLATES_DIR="/workspaces/rd/vnc/home/Templates"
+XDG_PUBLICSHARE_DIR="/workspaces/rd/vnc/home/Public"
