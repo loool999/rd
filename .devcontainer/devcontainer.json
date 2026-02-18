@@ -15,5 +15,5 @@
     "memory": "8gb",
     "storage": "32gb"
   },
-  "postCreateCommand": "bash setup.sh"
+  "postCreateCommand": "chmod +x /start.sh /setup.sh /stop.sh"
 }
